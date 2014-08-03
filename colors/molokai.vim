@@ -1,5 +1,5 @@
 " Vim color file
-"
+" Modifications: Vadim A. Misbak-Soloviov <mva@mva.name>
 " Author: Tomas Restrepo <tomas@winterdom.com>
 "
 " Note: Based on the monokai theme for textmate
@@ -191,7 +191,7 @@ if &t_Co > 255
    hi PreProc         ctermfg=118
    hi Question        ctermfg=81
    hi Repeat          ctermfg=161               cterm=bold
-   hi Search          ctermfg=253 ctermbg=66
+   hi Search          ctermfg=253 ctermbg=196
 
    " marks column
    hi SignColumn      ctermfg=118
@@ -211,7 +211,7 @@ if &t_Co > 255
    hi Structure       ctermfg=81
    hi Tag             ctermfg=161
    hi Title           ctermfg=166
-   hi Todo            ctermfg=231               cterm=bold
+   hi Todo            ctermfg=196               cterm=bold
 
    hi Typedef         ctermfg=81
    hi Type            ctermfg=81                cterm=none
