@@ -197,7 +197,7 @@ if &t_Co > 255
    hi SignColumn      ctermfg=118
    hi SpecialChar     ctermfg=161               cterm=bold
    hi SpecialComment  ctermfg=245               cterm=bold
-   hi Special         ctermfg=81
+   hi Special         ctermfg=81                cterm=bold
    if has("spell")
        hi SpellBad                ctermbg=52
        hi SpellCap                ctermbg=17
