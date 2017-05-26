@@ -120,13 +120,13 @@ if s:molokai_original == 1
    hi NonText         guifg=#75715E
    hi SpecialKey      guifg=#75715E
 else
-   hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
+   hi Normal          guifg=#F8F8F2 guibg=bg
    hi Comment         guifg=#7E8E91
-   hi CursorLine                    guibg=#293739
+   hi CursorLine                    guibg=bg
    hi CursorLineNr    guifg=#FD971F               gui=none
    hi CursorColumn                  guibg=#293739
    hi ColorColumn                   guibg=#232526
-   hi LineNr          guifg=#465457 guibg=#232526
+   hi LineNr          guifg=#465457 guibg=bg
    hi NonText         guifg=#465457
    hi SpecialKey      guifg=#465457
 end
