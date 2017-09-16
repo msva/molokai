@@ -66,7 +66,7 @@ hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#F92672
 
 " complete menu
-hi Pmenu           guifg=#66D9EF guibg=#000000
+hi Pmenu           guifg=#66D9EF guibg=bg
 hi PmenuSel                      guibg=#808080
 hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
@@ -77,7 +77,7 @@ hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
 hi Search          guifg=#FFFFFF guibg=#455354
 " marks
-hi SignColumn      guifg=#A6E22E guibg=#232526
+hi SignColumn      guifg=#A6E22E guibg=bg
 hi SpecialChar     guifg=#F92672               gui=bold
 hi SpecialComment  guifg=#7E8E91               gui=bold
 hi Special         guifg=#66D9EF guibg=bg      gui=italic
