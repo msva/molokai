@@ -194,7 +194,7 @@ if &t_Co > 255
    hi Search          ctermfg=253 ctermbg=196
 
    " marks column
-   hi SignColumn      ctermfg=118
+   hi SignColumn      ctermfg=118 ctermbg=none
    hi SpecialChar     ctermfg=161               cterm=bold
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=81                cterm=bold
